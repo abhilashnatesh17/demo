@@ -15,8 +15,6 @@ public class NavigationCommands extends Base {
 		navigationcommands.InitializesBrower();
 		navigationcommands.navigationCommands();
 	
-		
-
 	}
 
 }
