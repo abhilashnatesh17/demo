@@ -9,7 +9,7 @@ public class CssSelector extends Base {
 	{
 		//Syntax - tag#id
 		
-		WebElement tagid1=driver.findElement(By.cssSelector("button#button-one"));
+		WebElement tagid1=driver.findElement(By.cssSelector("button#button-one")); //tag and attribute id ollile varuna text ane edukunath
 		WebElement tagid2=driver.findElement(By.cssSelector("button#button-two"));
 		WebElement tagid3=driver.findElement(By.cssSelector("input#single-input-field"));
 		WebElement tagid4=driver.findElement(By.cssSelector("div#messag	e-one"));
@@ -18,7 +18,7 @@ public class CssSelector extends Base {
 	{
 		//Syntax - tag.class
 		
-		WebElement tagclass1=driver.findElement(By.cssSelector("div.header-top"));
+		WebElement tagclass1=driver.findElement(By.cssSelector("div.header-top")); //tag and attribute class ollile varuna text ane edukunath
 		WebElement tagclass2=driver.findElement(By.cssSelector("div.top-logo"));
 		WebElement tagclass3=driver.findElement(By.cssSelector("div.mb-sec"));
 	}

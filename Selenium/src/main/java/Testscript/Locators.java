@@ -8,7 +8,7 @@ public class Locators extends Base {
 // WebElement elementname=driver.findElement(By.Locator("locator value")); - Syntax
 	public void id()
 	{
-		WebElement id1=driver.findElement(By.id("single-input-field"));
+		WebElement id1=driver.findElement(By.id("single-input-field"));// attribute name is id, only take inside the ""
 		WebElement id2=driver.findElement(By.id("value-b"));
 		WebElement id3=driver.findElement(By.id("value-a"));
 		WebElement id4=driver.findElement(By.id("button-one"));
@@ -16,7 +16,7 @@ public class Locators extends Base {
 	}
 	public void className()
 	{
-			WebElement class1=driver.findElement(By.className("header-top"));// attribute name is id, only take inside the ""
+			WebElement class1=driver.findElement(By.className("header-top"));// attribute name is class, only take inside the ""
 			WebElement class2=driver.findElement(By.className("mb-sec"));
 			WebElement class3=driver.findElement(By.className("clearfix"));
 			WebElement class4=driver.findElement(By.className("col-lg-3 col-md-3 col-sm-12 col-xs-12"));
@@ -24,7 +24,7 @@ public class Locators extends Base {
 	}
 	public void name()
 	{
-		WebElement name1=driver.findElement(By.name("viewport")); // attribute is name 
+		WebElement name1=driver.findElement(By.name("viewport")); // attribute is name,  only take inside the ""
 		WebElement name2=driver.findElement(By.name("description"));
 		WebElement name3=driver.findElement(By.name("keywords"));
 		WebElement name4=driver.findElement(By.name("author"));
@@ -41,12 +41,13 @@ public class Locators extends Base {
 	}
 	public void partialLinkText()
 	{
-		WebElement partiallink1=driver.findElement(By.partialLinkText("Simple Fo"));
+		WebElement partiallink1=driver.findElement(By.partialLinkText("Simple Fo")); // same as link text but korach details enter chytha mathi. but aah word unique ayirikanam
 		WebElement partiallink2=driver.findElement(By.partialLinkText("Checkbox De"));
 		WebElement partiallink3=driver.findElement(By.partialLinkText("Radio But"));
 		WebElement partiallink4=driver.findElement(By.partialLinkText("Select In"));
 		WebElement partiallink5=driver.findElement(By.partialLinkText("Form Su"));
 		WebElement partiallink6=driver.findElement(By.partialLinkText("Ajax Fo"));
+		
 	}
 	public static void main(String[] args)
 	{

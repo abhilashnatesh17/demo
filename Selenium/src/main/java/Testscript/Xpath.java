@@ -33,7 +33,7 @@ public class Xpath extends Base{
 	}
 	public void startsWith()
 	{
-		//startsWith() syntax -  //tag[starts-with(@id,'value')]	
+		//startsWith() syntax -  //tag[starts-with(@attribute,'value')]	
 		WebElement startswith=driver.findElement(By.xpath("//button[starts-with(@id,'button-one')]")); //evida varumbo starting thane koduknam , Ending koduthilankilum no issue
 		WebElement startswith1=driver.findElement(By.xpath("//button[starts-with(@id,'button-t')]"));
 		WebElement startswith2=driver.findElement(By.xpath("//input[starts-with(@id,'value-a')]"));
